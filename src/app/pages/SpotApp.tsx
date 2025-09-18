@@ -1,3 +1,3 @@
 export const SpotApp = () => {
-  return <div>SpotApp</div>;
+  return <div>RICARDO</div>;
 }
