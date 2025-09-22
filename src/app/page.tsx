@@ -1,7 +1,7 @@
 import { ThemeProvider } from "flowbite-react";
-import { customTheme } from "./theme";
+import { SpotApp } from "@/app/pages/SpotApp";
 import { ThemeInit } from "../../.flowbite-react/init";
-import {SpotApp} from "@/app/pages/SpotApp";
+import { customTheme } from "./theme";
 
 export default function App() {
   return (

@@ -1,9 +1,8 @@
 import type { Metadata } from "next";
 import { Inter, Montserrat } from "next/font/google";
 import "./globals.css";
-import type React from "react";
 import { ThemeModeScript } from "flowbite-react";
-
+import type React from "react";
 
 const inter = Inter({
   subsets: ["latin"],
@@ -26,7 +25,9 @@ export const metadata: Metadata = {
   description: "A Next Application using Flowbite-React",
 };
 
-export default function RootLayout({children}: Readonly<{ children: React.ReactNode; }>) {
+export default function RootLayout({
+  children,
+}: Readonly<{ children: React.ReactNode }>) {
   return (
     <html lang="en" suppressHydrationWarning>
       <head>
